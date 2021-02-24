@@ -25,7 +25,6 @@ This project uses the following technologies:
 - react-three-fiber
 - JSX
 - JavaScript ES6
-- Bootstrap 5
 - git/GitHub
 - VS Code
 
