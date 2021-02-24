@@ -1,9 +1,9 @@
 import React from 'react';
 
 function BackDrop() {
-  return(
+  return (
     <mesh receiveShadow position={[0, -1, -5]}>
-      <planeBufferGeometry attach="geometry" arg={[500, 500]} />
+      <planeBufferGeometry attach="geometry" args={[500, 500]} />
       <meshStandardMaterial attach="material" color="white" />
     </mesh>
   );
