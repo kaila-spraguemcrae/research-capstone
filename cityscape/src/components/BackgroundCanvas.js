@@ -1,13 +1,13 @@
 import React, {Suspense} from 'react';
 import { Canvas } from 'react-three-fiber';
 import CityObject from './CityObject';
-import Error from './Error';
+import Loading from './Loading';
 
 function BackgroundCanvas() {
   return (
-    <Canvas style={{ background: '#cc7b32' }} camera={{ position: [0, 5, 0], fov: 40 }}>
+    <Canvas camera={{ position: [0, 5, 0], fov: 40 }}>
       <fog attach="fog" args={['#cc7b32', 0, 500]} />
-      <Suspense fallback={<Error/>}>
+      <Suspense fallback={<Loading />}>
         <CityObject />
       </Suspense>
     </Canvas>
