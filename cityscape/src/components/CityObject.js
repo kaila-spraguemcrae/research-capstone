@@ -3,8 +3,8 @@ import { useLoader, useFrame } from 'react-three-fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 
-function CityObject(props) {
-  const { scene } = useLoader(GLTFLoader, '../../public/scene.gltf');
+function CityObject() {
+  const { scene } = useLoader(GLTFLoader, '/scene.gltf');
   const ref = useRef();
   useFrame(() => (ref.current.rotation.y += 0.003))
   return (
