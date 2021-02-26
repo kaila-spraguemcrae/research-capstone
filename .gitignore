@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/research-capstone/node_modules
 /.pnp
 .pnp.js
 
