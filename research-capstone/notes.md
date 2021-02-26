@@ -28,11 +28,11 @@ To install react-three-fiber: `npm install three react-three-fiber`
 
 #### To Do
 
-- [ ] update proposal
+- [x] update proposal
 - [ ] find color palettes
 - [ ] create a mockup
 
-- [ ] review three.js basics
+- [x] review three.js basics
 - [ ] compare three.js with react-three-fiber
 - [ ] read '3d rendering in the browser'
 - [ ] read 'build 3d for the web'
@@ -41,5 +41,7 @@ To install react-three-fiber: `npm install three react-three-fiber`
 - [ ] render multiple objects
 
 #### Log
+
+8:30-10:00 Research Three.js
 
 #### Notes
