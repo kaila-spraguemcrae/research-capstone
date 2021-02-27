@@ -35,6 +35,7 @@ This project uses the following technologies:
 | Date | Error | Handled | Solution |
 | :------------- | :------------- | :------------- | :------------- |
 | 02.23.2021 | BackDrop not rendering | ✅ | `args` was typed as `arg` |
+| 02.26.2021 | Shadows not rendering | ✅ | Add `shadowMap` to the `<Canvas>` |
 
 -------------------
 

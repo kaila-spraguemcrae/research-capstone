@@ -2,7 +2,7 @@
 
 #### Project's Purpose or Goal: 
 
-To take a user on a visual journey.
+To take a user on a visual journey. I plan to achieve this by creating a fantastical landscape or an abstract space. A user will be able to interact with the space by click on objects and moving through the space. 
 
 #### Minimum Viable Product:
 
@@ -33,7 +33,3 @@ To take a user on a visual journey.
 #### Additional Technologies:
 
 - tone.js
-
-#### Is there anything else you'd like your instructor to know?
-	
-  I want to explore react-three-fiber and its functionality. I may find that I will need to use other technologies unknown to me at this time. My main goal is to create a 3D environment which is rendered with React and will hopefully have interactive elements which change according to the users actions. 

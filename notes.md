@@ -38,7 +38,7 @@ To install react-three-fiber: `npm install three react-three-fiber`
 - [ ] read '3d rendering in the browser'
 - [ ] read 'build 3d for the web'
 
-- [ ] program for 4 hours
+- [x] program for 4 hours
 - [x] render multiple objects
 
 #### Log
@@ -49,6 +49,6 @@ To install react-three-fiber: `npm install three react-three-fiber`
 
 to start a project: `npm install three react-three-fiber`
 
-add shadows with `shadowMap` (in <Canvas>), `castShadow` (objects), `receiveShadow` (plane)
+add shadows with `shadowMap` (in `<Canvas>`), `castShadow` (objects), `receiveShadow` (plane)
 
-Drei had `OrbitControls1 which allows you to use your mouse to look around and zoom in
+Drei had `OrbitControls` which allows you to use your mouse to look around and zoom in
