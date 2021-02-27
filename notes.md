@@ -35,7 +35,7 @@ To install react-three-fiber: `npm install three react-three-fiber`
 
 - [x] review three.js basics
 - [ ] compare three.js with react-three-fiber
-- [ ] read '3d rendering in the browser'
+- [x] read '3d rendering in the browser'
 - [ ] read 'build 3d for the web'
 
 - [x] program for 4 hours
