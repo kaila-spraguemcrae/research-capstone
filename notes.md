@@ -13,6 +13,7 @@ To install react-three-fiber: `npm install three react-three-fiber`
 | Build 3D for the Web | BetterProgramming | https://betterprogramming.pub/react-three-fiber-build-3d-for-the-web-with-react-and-webgl-easily-c0df8801292 | ❌ |  
 | Build a Game with React-Three-Fiber and Recoil | Code Workshop | https://codeworkshop.dev/blog/2020-06-23-build-a-game-with-react-three-fiber-and-recoil/ | ❌ |  
 | Get Started with React and Three.js using react three fiber | YouTube | https://www.youtube.com/watch?v=fdtqqyeKRJk | ✅ |  
+|  |  |  |
 
 ## Examples
 
@@ -25,7 +26,9 @@ To install react-three-fiber: `npm install three react-three-fiber`
 
 ## Work Days
 
-### -------- Friday 02.25.2021 -------- 
+### -------- Friday 02.26.2021 -------- 
+
+<details>
 
 #### To Do
 
@@ -52,3 +55,24 @@ to start a project: `npm install three react-three-fiber`
 add shadows with `shadowMap` (in `<Canvas>`), `castShadow` (objects), `receiveShadow` (plane)
 
 Drei had `OrbitControls` which allows you to use your mouse to look around and zoom in
+
+</details>
+
+### -------- Saturday 02.27.2021 -------- 
+
+<details>
+
+#### To Do
+
+- [ ] find color palettes
+- [ ] create a mockup
+- [ ] brainstorm project name
+
+- [ ] review three.js basics
+- [ ] compare three.js with react-three-fiber
+- [ ] read '3d rendering in the browser'
+- [ ] read 'build 3d for the web'
+
+#### Notes
+
+</details>
