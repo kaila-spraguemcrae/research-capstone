@@ -50,3 +50,5 @@ To install react-three-fiber: `npm install three react-three-fiber`
 to start a project: `npm install three react-three-fiber`
 
 add shadows with `shadowMap` (in <Canvas>), `castShadow` (objects), `receiveShadow` (plane)
+
+Drei had `OrbitControls1 which allows you to use your mouse to look around and zoom in

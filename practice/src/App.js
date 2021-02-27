@@ -1,9 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './App.scss';
 
 import { Canvas, useFrame } from 'react-three-fiber';
 
 import { softShadows, MeshWobbleMaterial, OrbitControls } from '@react-three/drei';
+
+import { useSpring, a} from 'react-spring/three';
 
 //NO HTML inside Canvas (only can take three.js elements)
 //mesh can take 'meterial' and 'geomentry'
@@ -14,11 +16,23 @@ softShadows();
 const SpinningMesh = ({position, args, color, speed}) => {
   const mesh= useRef(null);
   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.01))
+
+  const [expand, setExpand] = useState(false);
+
+  const props = useSpring({
+    scale: expand ? [1.4, 1.4, 1.4 ] : [ 1, 1, 1],
+  })
+
   return (
-    <mesh castShadow position={position} ref={mesh}>
+    <a.mesh 
+      onClick={() => setExpand(!expand)}
+      scale={props.scale}
+      castShadow 
+      position={position} 
+      ref={mesh}>
       <boxBufferGeometry attach='geometry' args={args} />
       <MeshWobbleMaterial  attach='material' color={color} speed={speed} factor={0.6}/>
-    </mesh>
+    </a.mesh>
   );
 }
 
