@@ -39,7 +39,7 @@ To install react-three-fiber: `npm install three react-three-fiber`
 - [ ] read 'build 3d for the web'
 
 - [ ] program for 4 hours
-- [ ] render multiple objects
+- [x] render multiple objects
 
 #### Log
 
@@ -48,3 +48,5 @@ To install react-three-fiber: `npm install three react-three-fiber`
 #### Notes
 
 to start a project: `npm install three react-three-fiber`
+
+add shadows with `shadowMap` (in <Canvas>), `castShadow` (objects), `receiveShadow` (plane)
