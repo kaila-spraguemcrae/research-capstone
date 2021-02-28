@@ -1,6 +1,6 @@
 <br>
 <h1 align = "center">
-  <b>Capstone</b>
+  <b>LINGER</b>
 </h1>
 
 <p align = "center">

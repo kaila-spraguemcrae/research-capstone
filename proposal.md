@@ -2,7 +2,7 @@
 
 #### Project's Purpose or Goal: 
 
-To take a user on a visual journey. I plan to achieve this by creating a fantastical landscape or an abstract space. A user will be able to interact with the space by click on objects and moving through the space. 
+LINGER is a visual journey. It is a place on the web where you can sit realax and look around. I plan to achieve this by creating a fantastical landscape or an abstract space. A user will be able to interact with the space by click on objects and moving through the space. 
 
 #### Minimum Viable Product:
 
