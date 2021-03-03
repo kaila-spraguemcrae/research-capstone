@@ -58,7 +58,7 @@ Drei had `OrbitControls` which allows you to use your mouse to look around and z
 
 </details>
 
-### -------- Saturday 02.27.2021 -------- 
+### -------- Sunday 02.28.2021 -------- 
 
 <details>
 
@@ -66,14 +66,38 @@ Drei had `OrbitControls` which allows you to use your mouse to look around and z
 
 - [ ] find color palettes
 - [ ] create a mockup
-- [ ] brainstorm project name
+- [x] brainstorm project name
 - [ ] create component tree
 
-- [ ] review three.js basics
-- [ ] compare three.js with react-three-fiber
-- [ ] read '3d rendering in the browser'
-- [ ] read 'build 3d for the web'
+- [x] review three.js basics
+- [x] compare three.js with react-three-fiber
+- [x] read '3d rendering in the browser'
+- [x] read 'build 3d for the web'
 
 #### Notes
 
 </details>
+
+### -------- Tuesday 03.02.2021 -------- 
+
+<details>
+
+#### To Do
+
+- [ ] find color palettes
+- [ ] create a mockup
+- [ ] create component tree
+
+
+#### Notes
+
+for 3D elements: https://sketchfab.com/feed
+
+to render gltf (or possibly glb??) files:
+
+1. save .gltf file (and .bin) in /public folder
+
+2. run `npx gltfjsx public/filename.gltf
+
+</details>
+
