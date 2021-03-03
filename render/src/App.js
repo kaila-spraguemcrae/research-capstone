@@ -12,7 +12,7 @@ function App() {
       <Canvas 
         colorManagement
         shadowMap
-        camera={{position: [-5, 4, 4], fov: 40}}>
+        >
           <Suspense fallback={null}>
             <Model />
           </Suspense>
