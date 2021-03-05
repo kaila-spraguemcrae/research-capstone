@@ -4,6 +4,8 @@
 
 To install react-three-fiber: `npm install three react-three-fiber`
 
+To install drei `npm install @react-three/drei`
+
 ## Tutorials
 
 | Title | webpage | url | complete |
@@ -97,7 +99,25 @@ to render gltf (or possibly glb??) files:
 
 1. save .gltf file (and .bin) in /public folder
 
-2. run `npx gltfjsx public/filename.gltf
+2. run `npx gltfjsx public/filename.gltf`
 
 </details>
 
+### -------- Friday 03.05.2021 -------- 
+
+<details>
+
+#### To Do
+
+- [ ] find color palettes
+- [ ] create a mockup
+- [ ] create component tree
+
+- [ ] explore new proj idea
+
+
+#### Notes
+
+
+
+</details>
