@@ -4,7 +4,13 @@
 
 To install react-three-fiber: `npm install three react-three-fiber`
 
-To install drei `npm install @react-three/drei`
+To install drei `npm install @react-three/drei` (https://github.com/pmndrs/drei)
+
+To install component material `npm install component-material` (https://github.com/pmndrs/component-material)
+
+To install babel pluging glsl `npm i --save-dev glslify babel-plugin-glsl` (https://github.com/onnovisser/babel-plugin-glsl)
+
+To install Tweakpane `npm install --save tweakpane` (https://cocopon.github.io/tweakpane/getting-started.html)
 
 ## Tutorials
 
@@ -118,6 +124,6 @@ to render gltf (or possibly glb??) files:
 
 #### Notes
 
-
+glsl: shading
 
 </details>
